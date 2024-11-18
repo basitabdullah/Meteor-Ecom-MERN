@@ -63,7 +63,7 @@ const Home = () => {
   ];
   return (
     <div className="home">
-      <MetaData title={"Meteor | Home"} />
+      <MetaData title={"Avefiles Foundation | Home"} />
       <Carousel
         showStatus={false}
         showThumbs={false}
