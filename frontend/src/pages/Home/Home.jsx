@@ -70,7 +70,7 @@ const Home = () => {
         showArrows={false}
         autoPlay={true}
         infiniteLoop={true}
-        interval={5000}
+        interval={1000}
       >
         <CarouselContainer
           image={

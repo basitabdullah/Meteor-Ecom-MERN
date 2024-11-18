@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Home2 from "./pages/Home2/Home2";
 import "./styles/global.scss";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
@@ -45,6 +46,7 @@ const App = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home2" element={<Home2 />} />
         <Route
           path="/login"
           element={user ? <Navigate to="/"/> : <Login/>  }
